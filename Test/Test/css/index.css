@@ -1,0 +1,193 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: font1;
+	src :url(../font/font1.ttf);
+}
+@font-face{
+	font-family: font2;
+	src :url(../font/font2.ttf);
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: font1;
+	height: 1000px;
+}
+.w-80{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding: 10px 10px;
+}
+
+/* start header code */
+
+
+header{
+	width: 100%;
+	height: 55px;
+	background-color: blue;
+}
+header .menu{
+	width: 100%;
+	height: 55px;
+	margin: auto;
+	padding-top: 5px;
+}
+header .menu .modules-name{
+	width: 25%;
+	float: left;
+}
+header .menu nav{
+	width: 75%;
+	float: left;
+}
+header .menu .modules-name h2{
+	font-family: font1;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 50px;
+	color: white;
+}
+header .menu .modules-name a{
+	text-decoration: none;
+	margin: auto;
+}
+header .menu nav ul{
+	list-style: none;
+}
+header .menu nav ul li{
+	display: inline-block;
+	margin: 8px 10px;
+	margin-left: 10px;
+	padding: 1px 2px;
+}
+header .menu nav ul li:hover{
+	border: none;
+}
+header .menu nav ul li:hover a{
+	color: yellow;
+}
+header .menu nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: font1;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+header .sub-menu{
+	display: none;
+}
+header .menu nav ul li:hover .sub-menu{
+	display: block;
+	margin-top: 1px;
+	position: absolute; 
+	background-color: red;
+}
+header .menu nav ul li:hover .sub-menu a{
+	color: white;
+	font-size: 20px;
+}
+header .menu nav ul li:hover .sub-menu ul li{
+	width: 150px;
+	float: left;
+
+}
+header .menu nav ul li:hover .sub-menu ul{
+	display: block;
+	width: 150px;
+}
+
+
+
+
+
+/* end header code */
+
+/*start section coding*/
+section{
+	width: 100%;
+	float: left;
+}
+section .section-img{
+	width: 100%;
+	height: 500px;
+	background: url(../images/2.jpg) no-repeat;
+	background-size: cover;
+}
+section .section-bg-box{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+}
+section .section-img1{
+	width: 100%;
+	height: 950px;
+	background: url(../images/1.jpg) no-repeat;
+	background-size: cover;
+}
+section .section-bg-box1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+}
+
+
+section .welcome-text{
+	width: 40%;
+	padding-left: 20px;
+	margin: 0px 50px;
+	background-color: red;
+	color: white;
+}
+section ul{
+	padding: 0;
+	margin: 0px 50px;
+	list-style: none;
+}
+section ul li{
+	font-size: 20px;
+	line-height: 30px;
+}
+section h2{
+	margin: 0px 50px;
+}
+section .section-img2{
+	width: 100%;
+	height: 950px;
+	background: url(../images/7.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+
+/*end section coding*/
+
+/*start footer coding*/
+
+footer{
+	width: 100%;
+	background: black;
+	height: 200px;
+	float: left;
+	color: white;
+	
+}
+footer h4{
+	margin-left: 50px;
+	padding-top: 10px;
+}
+footer h5{
+	margin-left: 59px;
+}
+
+
+
+/*end footer coding*/
